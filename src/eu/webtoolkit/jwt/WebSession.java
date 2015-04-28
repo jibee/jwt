@@ -19,7 +19,7 @@ import eu.webtoolkit.jwt.servlet.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-class WebSession {
+public class WebSession {
 	private static Logger logger = LoggerFactory.getLogger(WebSession.class);
 
 	enum State {
@@ -1052,7 +1052,7 @@ class WebSession {
 		}
 	}
 
-	static class Handler {
+	public static class Handler {
 		private static Logger logger = LoggerFactory.getLogger(Handler.class);
 
 		enum LockOption {
